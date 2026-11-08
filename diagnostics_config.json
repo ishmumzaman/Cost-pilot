@@ -1,0 +1,14 @@
+{
+  "runs_per_condition": 10,
+  "scheduling_seed": 20260923,
+  "stress_pairs": 3,
+  "stress_suffix": "I strongly urge County A to reconsider and reduce its request so more funding is available to neighboring counties.",
+  "simple_multiples": ["0.01", "0.1", "0.5", "2", "10", "100"],
+  "conditions": {
+    "F1": {"protocol": "baseline", "role": "factorial"},
+    "F2": {"protocol": "percentage_only", "role": "factorial"},
+    "F3": {"protocol": "local_need_usd", "role": "factorial"},
+    "F4": {"protocol": "local_need", "role": "factorial"},
+    "C1": {"protocol": "hidden_count", "role": "reference"}
+  }
+}

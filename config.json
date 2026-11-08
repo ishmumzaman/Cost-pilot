@@ -1,0 +1,26 @@
+{
+  "provider": "openai",
+  "model": "gpt-5.6-luna",
+  "reasoning_effort": "none",
+  "max_output_tokens": 512,
+  "temperature": null,
+  "request_timeout_seconds": 60,
+  "max_attempts": 3,
+  "retry_delays_seconds": [
+    2,
+    4
+  ],
+  "max_retry_wait_seconds": 60,
+  "allocation_budget_usd": 10000000,
+  "api_spend_limit_usd": "1.00",
+  "measured_runs": 5,
+  "pricing": {
+    "model": "gpt-5.6-luna",
+    "source": "https://developers.openai.com/api/docs/models/gpt-5.6-luna",
+    "checked_date": "2026-10-14",
+    "ordinary_input_per_million": "0.20",
+    "cached_input_per_million": "0.02",
+    "cache_write_per_million": "0.25",
+    "output_per_million": "1.20"
+  }
+}

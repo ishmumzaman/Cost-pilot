@@ -1,0 +1,11 @@
+{
+  "synthetic": true,
+  "definition": "Made-up single-year all-drug-overdose deaths; crude annual death rate per 100,000; synthetic SVI on a 0-1 scale; poverty in percent.",
+  "counties": [
+    {"id": "A", "population": 45000, "overdose_deaths": 24, "death_rate_per_100k": 53.3, "svi": 0.72, "poverty_percent": 17.8, "rural_class": "Rural"},
+    {"id": "B", "population": 95000, "overdose_deaths": 61, "death_rate_per_100k": 64.2, "svi": 0.41, "poverty_percent": 12.4, "rural_class": "Small metro"},
+    {"id": "C", "population": 180000, "overdose_deaths": 92, "death_rate_per_100k": 51.1, "svi": 0.63, "poverty_percent": 15.1, "rural_class": "Mixed"},
+    {"id": "D", "population": 360000, "overdose_deaths": 205, "death_rate_per_100k": 56.9, "svi": 0.35, "poverty_percent": 10.2, "rural_class": "Suburban"},
+    {"id": "E", "population": 720000, "overdose_deaths": 475, "death_rate_per_100k": 66.0, "svi": 0.79, "poverty_percent": 19.3, "rural_class": "Urban"}
+  ]
+}
